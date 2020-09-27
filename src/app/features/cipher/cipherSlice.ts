@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState } from '../../store';
-import { convertToString, isAlphanumeric, isEmpty, isUpperCase, shiftIndexValue } from '../util/helprs'
+import { convertToString, isAlphanumeric, isNumeric, isEmpty, isUpperCase, shiftIndexValue } from '../util/helprs'
 
 interface CipherState {
   inputValue: string | number;
@@ -33,7 +33,7 @@ export const cipherSlice = createSlice({
       if (isEmpty(inputString)) throw new Error('Given string is empty!')
 
       inputArray.forEach((char) => {
-        if (!isAlphanumeric(char)) return (cipheredString = cipheredString.concat(char))
+        if (!isAlphanumeric(char) || isNumeric(char)) return (cipheredString = cipheredString.concat(char))
 
         const valueIndex: number = alphabet.indexOf(char.toLowerCase())
         const newValueIndex: number = shiftIndexValue(valueIndex, rot, alphabet.length)
