@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d298151.chunk.css",
+    "main.js": "/static/js/main.61d36172.chunk.js",
+    "main.js.map": "/static/js/main.61d36172.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8c7c6d68.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8c7c6d68.js.map",
+    "static/js/2.772cbc9a.chunk.js": "/static/js/2.772cbc9a.chunk.js",
+    "static/js/2.772cbc9a.chunk.js.map": "/static/js/2.772cbc9a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f25d7c74c3bf9ba91673bac74aacb6f7.js": "/precache-manifest.f25d7c74c3bf9ba91673bac74aacb6f7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4d298151.chunk.css.map": "/static/css/main.4d298151.chunk.css.map",
+    "static/js/2.772cbc9a.chunk.js.LICENSE.txt": "/static/js/2.772cbc9a.chunk.js.LICENSE.txt",
+    "static/media/julius-caesar.png": "/static/media/julius-caesar.79e917ac.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c7c6d68.js",
+    "static/js/2.772cbc9a.chunk.js",
+    "static/css/main.4d298151.chunk.css",
+    "static/js/main.61d36172.chunk.js"
+  ]
+}
