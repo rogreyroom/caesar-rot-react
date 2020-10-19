@@ -15,7 +15,6 @@ const Title = styled.h1`
 		grid-template-columns: 16px auto;
 		grid-template-areas: "first second";
 		color: var(--header-text-color);
-		font-family: map-get($fonts, ff-header);
 		font-size: 10vh;
 		margin: 0;
 `
