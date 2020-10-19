@@ -5,7 +5,7 @@ _[Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher)_
 
 ## Website 🚀
 
-[go to the website](https://rogreyroom.github.io/caesar-rot/)
+[go to the website](https://rogreyroom.github.io/caesar-rot-react/)
 
 ![Caesar cipher website screen](screenshots/caesar-rot.png)
 
@@ -26,25 +26,7 @@ The output of the app is a encoded string with the given ROT value.
 
 ## Build with
 
-* [webpack](https://webpack.js.org)
-* [typescript](https://typescriptlang.org)
-* [jest](https://jestjs.io)
-
-## Version
-
-v.1.0.0
-
-## Author
-
-Robert Adamczewski
-
-## License
-
-This project is licensed under MIT License - see the [LICENSE](./LICENSE) file for details.
-
------------------------------
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
 
@@ -73,6 +55,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn postbuild`
+
+It changes the build folder to the docs folder to easily serve the app on GitHub pages.
+
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
@@ -83,8 +69,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Version
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+v.1.0.0
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
+
+Robert Adamczewski
+
+## License
+
+This project is licensed under MIT License - see the [LICENSE](./LICENSE) file for details.
